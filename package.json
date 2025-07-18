@@ -1,0 +1,14 @@
+{
+    "name": "art-logic-takehome",
+    "version": "1.0.0",
+    "description": "",
+    "main": "encoder.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Chris Gantt",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^30.0.4"
+    }
+}
