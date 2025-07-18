@@ -1,4 +1,4 @@
-# Art+Logic Programming Challenge - Weird Text Format Encoder
+# Art+Logic Programming Challenge - Weird Text Format Encoder/Decoder CLI
 
 ## Problem
 
@@ -12,6 +12,17 @@ The algorithm takes 4 characters, converts them to bytes, and rearranges the bit
 
 ```bash
 npm install
+```
+
+## Usage
+
+### CLI App
+
+```bash
+npm run encode "your text here"
+npm run decode "[123,456,789]"
+npm run encode-file input.txt
+npm run decode-file encoded.json
 ```
 
 ## Tests

@@ -1,10 +1,14 @@
 {
     "name": "art-logic-takehome",
     "version": "1.0.0",
-    "description": "",
+    "description": "Weird Text Format encoder/decoder using bit interleaving",
     "main": "encoder.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "encode": "node cli.js encode",
+        "decode": "node cli.js decode",
+        "encode-file": "node cli.js encode -f",
+        "decode-file": "node cli.js decode -f"
     },
     "author": "Chris Gantt",
     "license": "ISC",
